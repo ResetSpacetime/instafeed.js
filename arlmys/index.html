@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arlmy's Instagram</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<script type="text/javascript" src="instafeed.min.js"></script>
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript">
+    var feed = new Instafeed({
+        clientId: '71cf118f50104116ad5017762725b3cc',
+				get: 'user',
+				userId: '144145088',
+				accessToken: '144145088.1677ed0.8c9ede4ad31947c9b0ad384481c52dbc',
+				target: 'instagram',
+				resolution: 'standard_resolution'
+    });
+    feed.run();
+</script>
+</head>
+<body>
+	<div>Hi</div>
+	<div id="instagram"></div>
+</body>
+
+<!--
+
+- 方案来自：[instafeed.js](https://github.com/stevenschobert/instafeed.js)
+- 成功案例：[Anthony Garand](http://garand.me/)
+- CSS 代码来自：http://garand.me/assets/style/main.css 的 “#instagram” 部分
+
+## 配置流程
+
+
+
+
+
+- 获得 userId
+	- 访问 [Find my Instagram User ID](https://smashballoon.com/instagram-feed/find-instagram-user-id/)，输入 Username，找到对应项，拷贝至“userId:”项下即可
+- 获得 accessToken
+	- 访问 [instagram.pixelunion.net](http://instagram.pixelunion.net/)，确认后出现的字符串，拷贝至“accessToken:”项下即可
+
+-->
+
+</html>
